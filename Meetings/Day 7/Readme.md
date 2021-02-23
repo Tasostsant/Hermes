@@ -1,4 +1,4 @@
-# Day 7 (28/12/2019 16:30)
+# Day 7 (26/12/2019 14:15)
 
 ### Present:
 * Monogios Rafail (164707)
@@ -9,5 +9,5 @@
 
 ### Activities:
 * Design brain storming
-* Prioritize tasks
+* Discusing all tasks and their potential problems
 * General tasks discussion

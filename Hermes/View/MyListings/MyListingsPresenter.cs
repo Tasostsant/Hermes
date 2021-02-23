@@ -35,10 +35,10 @@ namespace Hermes.View.mylistings
             }
         }
 
-        public void UpdateListing(int id, string title, float price, string description,string path)
+        public void UpdateListing(int id, string title, float price, string description, string path)
         {
             bool update = _repository.UpdateListing(id, title, price, description);
-            UploadImage(id,path);
+            UploadImage(id, path);
             if (update)
             {
                 MessageBox.Show("Listing updated!", "Success", MessageBoxButton.OK);
@@ -51,9 +51,9 @@ namespace Hermes.View.mylistings
             GetListings(1);
         }
 
-        public void DeactivateListing(int listingID) 
+        public void DeactivateListing(int listingID)
         {
-            _repository.deleteListing(listingID);            
+            _repository.deleteListing(listingID);
         }
 
         public User GetCurrentUser()
@@ -95,4 +95,3 @@ namespace Hermes.View.mylistings
         }
     }
 }
-
